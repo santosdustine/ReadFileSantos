@@ -12,7 +12,7 @@ namespace ReadFileSantos
         {
             openFileDialog1.InitialDirectory = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-                "LastName_FirstName_LabStream");     // ← your real name
+                "Santos_Dustine_LabStream");
             openFileDialog1.Title = "Browse Text Files";
             openFileDialog1.DefaultExt = "txt";
             openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
@@ -54,6 +54,7 @@ namespace ReadFileSantos
         {
             DisplayToList();
         }
+
     }
     public class EmptyFileException : Exception
     {
